@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle poctest",
+        "command": "poctest:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "poctest",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "poctest:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
